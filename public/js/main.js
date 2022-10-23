@@ -45,10 +45,10 @@ __webpack_require__.r(__webpack_exports__);
 
   'template': function(template, expressionTypes, bindingTypes, getComponent) {
     return template(
-      '<button expr52="expr52" data-toggle="popover"><i expr53="expr53"></i><span expr54="expr54"></span><i expr55="expr55"></i></button>',
+      '<button expr44="expr44" data-toggle="popover"><i expr45="expr45"></i><span expr46="expr46"></span><i expr47="expr47"></i></button>',
       [{
-        'redundantAttribute': 'expr52',
-        'selector': '[expr52]',
+        'redundantAttribute': 'expr44',
+        'selector': '[expr44]',
 
         'expressions': [{
           'type': expressionTypes.ATTRIBUTE,
@@ -93,8 +93,8 @@ __webpack_require__.r(__webpack_exports__);
           return scope.props.elLeftIcon;
         },
 
-        'redundantAttribute': 'expr53',
-        'selector': '[expr53]',
+        'redundantAttribute': 'expr45',
+        'selector': '[expr45]',
 
         'template': template(null, [{
           'expressions': [{
@@ -113,8 +113,8 @@ __webpack_require__.r(__webpack_exports__);
           return scope.props.title;
         },
 
-        'redundantAttribute': 'expr54',
-        'selector': '[expr54]',
+        'redundantAttribute': 'expr46',
+        'selector': '[expr46]',
 
         'template': template(' ', [{
           'expressions': [{
@@ -133,8 +133,8 @@ __webpack_require__.r(__webpack_exports__);
           return scope.props.elRightIcon;
         },
 
-        'redundantAttribute': 'expr55',
-        'selector': '[expr55]',
+        'redundantAttribute': 'expr47',
+        'selector': '[expr47]',
 
         'template': template(null, [{
           'expressions': [{
@@ -192,10 +192,10 @@ __webpack_require__.r(__webpack_exports__);
 
   'template': function(template, expressionTypes, bindingTypes, getComponent) {
     return template(
-      '<button expr56="expr56"><i expr57="expr57"></i><span expr58="expr58"></span><span expr59="expr59" class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span><span expr60="expr60"></span><i expr61="expr61"></i></button>',
+      '<button expr51="expr51"><i expr52="expr52"></i><span expr53="expr53"></span><span expr54="expr54" class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span><span expr55="expr55"></span><i expr56="expr56"></i></button>',
       [{
-        'redundantAttribute': 'expr56',
-        'selector': '[expr56]',
+        'redundantAttribute': 'expr51',
+        'selector': '[expr51]',
 
         'expressions': [{
           'type': expressionTypes.ATTRIBUTE,
@@ -233,8 +233,8 @@ __webpack_require__.r(__webpack_exports__);
           return scope.props.elIconLeft;
         },
 
-        'redundantAttribute': 'expr57',
-        'selector': '[expr57]',
+        'redundantAttribute': 'expr52',
+        'selector': '[expr52]',
 
         'template': template(null, [{
           'expressions': [{
@@ -253,8 +253,8 @@ __webpack_require__.r(__webpack_exports__);
           return !scope.props.elIsloading && scope.props.elTitle;
         },
 
-        'redundantAttribute': 'expr58',
-        'selector': '[expr58]',
+        'redundantAttribute': 'expr53',
+        'selector': '[expr53]',
 
         'template': template(' ', [{
           'expressions': [{
@@ -273,8 +273,8 @@ __webpack_require__.r(__webpack_exports__);
           return scope.props.elIsloading && scope.props.elOnloadingTitle;
         },
 
-        'redundantAttribute': 'expr59',
-        'selector': '[expr59]',
+        'redundantAttribute': 'expr54',
+        'selector': '[expr54]',
         'template': template(null, [])
       }, {
         'type': bindingTypes.IF,
@@ -283,8 +283,8 @@ __webpack_require__.r(__webpack_exports__);
           return scope.props.elIsloading && scope.props.elOnloadingTitle;
         },
 
-        'redundantAttribute': 'expr60',
-        'selector': '[expr60]',
+        'redundantAttribute': 'expr55',
+        'selector': '[expr55]',
 
         'template': template(' ', [{
           'expressions': [{
@@ -303,8 +303,8 @@ __webpack_require__.r(__webpack_exports__);
           return scope.props.elIconRight;
         },
 
-        'redundantAttribute': 'expr61',
-        'selector': '[expr61]',
+        'redundantAttribute': 'expr56',
+        'selector': '[expr56]',
 
         'template': template(null, [{
           'expressions': [{
@@ -374,10 +374,10 @@ __webpack_require__.r(__webpack_exports__);
 
   'template': function(template, expressionTypes, bindingTypes, getComponent) {
     return template(
-      '<div expr49="expr49" class="w-100 pointer" data-toggle="popover"><div expr50="expr50" class="wrapper"></div><i expr51="expr51"></i></div>',
+      '<div expr40="expr40" class="w-100 pointer" data-toggle="popover"><div expr41="expr41" class="wrapper"></div><i expr42="expr42"></i></div>',
       [{
-        'redundantAttribute': 'expr49',
-        'selector': '[expr49]',
+        'redundantAttribute': 'expr40',
+        'selector': '[expr40]',
 
         'expressions': [{
           'type': expressionTypes.ATTRIBUTE,
@@ -415,16 +415,16 @@ __webpack_require__.r(__webpack_exports__);
           return ['asc', 'desc'].indexOf(scope.callbackData.sortValue) === -1;
         },
 
-        'redundantAttribute': 'expr50',
-        'selector': '[expr50]',
+        'redundantAttribute': 'expr41',
+        'selector': '[expr41]',
 
         'template': template(
           '<i class="float-left fa fa-long-arrow-down"></i><i class="float-left fa fa-long-arrow-up"></i>',
           []
         )
       }, {
-        'redundantAttribute': 'expr51',
-        'selector': '[expr51]',
+        'redundantAttribute': 'expr42',
+        'selector': '[expr42]',
 
         'expressions': [{
           'type': expressionTypes.ATTRIBUTE,
@@ -478,9 +478,9 @@ __webpack_require__.r(__webpack_exports__);
   },
 
   'template': function(template, expressionTypes, bindingTypes, getComponent) {
-    return template('<button expr44="expr44"> </button>', [{
-      'redundantAttribute': 'expr44',
-      'selector': '[expr44]',
+    return template('<button expr43="expr43"> </button>', [{
+      'redundantAttribute': 'expr43',
+      'selector': '[expr43]',
 
       'expressions': [{
         'type': expressionTypes.TEXT,
@@ -607,13 +607,13 @@ __webpack_require__.r(__webpack_exports__);
 
   'template': function(template, expressionTypes, bindingTypes, getComponent) {
     return template(
-      '<div class="input-group pd-t-5"><div expr63="expr63" class="pd-x-5"></div></div>',
+      '<div class="input-group pd-t-5"><div expr69="expr69" class="pd-x-5"></div></div>',
       [{
         'type': bindingTypes.EACH,
         'getKey': null,
         'condition': null,
 
-        'template': template('<input expr64="expr64" type="checkbox"/> ', [{
+        'template': template('<input expr70="expr70" type="checkbox"/> ', [{
           'expressions': [{
             'type': expressionTypes.TEXT,
             'childNodeIndex': 1,
@@ -623,8 +623,8 @@ __webpack_require__.r(__webpack_exports__);
             }
           }]
         }, {
-          'redundantAttribute': 'expr64',
-          'selector': '[expr64]',
+          'redundantAttribute': 'expr70',
+          'selector': '[expr70]',
 
           'expressions': [{
             'type': expressionTypes.VALUE,
@@ -663,8 +663,8 @@ __webpack_require__.r(__webpack_exports__);
           }]
         }]),
 
-        'redundantAttribute': 'expr63',
-        'selector': '[expr63]',
+        'redundantAttribute': 'expr69',
+        'selector': '[expr69]',
         'itemName': 'item',
         'indexName': null,
 
@@ -841,9 +841,9 @@ __webpack_require__.r(__webpack_exports__);
   },
 
   'template': function(template, expressionTypes, bindingTypes, getComponent) {
-    return template('<input expr65="expr65" type="checkbox"/>', [{
-      'redundantAttribute': 'expr65',
-      'selector': '[expr65]',
+    return template('<input expr73="expr73" type="checkbox"/>', [{
+      'redundantAttribute': 'expr73',
+      'selector': '[expr73]',
 
       'expressions': [{
         'type': expressionTypes.ATTRIBUTE,
@@ -962,10 +962,10 @@ __webpack_require__.r(__webpack_exports__);
 
   'template': function(template, expressionTypes, bindingTypes, getComponent) {
     return template(
-      '<div class="form-inline"><label class="switch float-left"><input expr66="expr66" type="checkbox"/><span class="slider round"></span></label><label expr67="expr67"> </label></div>',
+      '<div class="form-inline"><label class="switch float-left"><input expr71="expr71" type="checkbox"/><span class="slider round"></span></label><label expr72="expr72"> </label></div>',
       [{
-        'redundantAttribute': 'expr66',
-        'selector': '[expr66]',
+        'redundantAttribute': 'expr71',
+        'selector': '[expr71]',
 
         'expressions': [{
           'type': expressionTypes.EVENT,
@@ -990,8 +990,8 @@ __webpack_require__.r(__webpack_exports__);
           }
         }]
       }, {
-        'redundantAttribute': 'expr67',
-        'selector': '[expr67]',
+        'redundantAttribute': 'expr72',
+        'selector': '[expr72]',
 
         'expressions': [{
           'type': expressionTypes.TEXT,
@@ -1128,10 +1128,10 @@ __webpack_require__.r(__webpack_exports__);
 
   'template': function(template, expressionTypes, bindingTypes, getComponent) {
     return template(
-      '<ul expr83="expr83"><li class="page-item"><form-limit-per-page expr84="expr84" custom-class="tx-11"></form-limit-per-page></li><li expr85="expr85"><a expr86="expr86" class="page-link pointer" aria-label="Prev Page"><i class="icon ion-ios-arrow-back"></i></a></li><li class="page-item active"><div expr87="expr87" class="page-link tx-12" aria-label="current"> </div></li><li expr88="expr88"><a expr89="expr89" class="page-link pointer" aria-label="Next Page"><i class="icon ion-ios-arrow-forward"></i></a></li><li class="page-item"><form-go-to-page expr90="expr90" custom-class="tx-11"></form-go-to-page></li></ul>',
+      '<ul expr74="expr74"><li class="page-item"><form-limit-per-page expr75="expr75" custom-class="tx-11"></form-limit-per-page></li><li expr76="expr76"><a expr77="expr77" class="page-link pointer" aria-label="Prev Page"><i class="icon ion-ios-arrow-back"></i></a></li><li class="page-item active"><div expr78="expr78" class="page-link tx-12" aria-label="current"> </div></li><li expr79="expr79"><a expr80="expr80" class="page-link pointer" aria-label="Next Page"><i class="icon ion-ios-arrow-forward"></i></a></li><li class="page-item"><form-go-to-page expr81="expr81" custom-class="tx-11"></form-go-to-page></li></ul>',
       [{
-        'redundantAttribute': 'expr83',
-        'selector': '[expr83]',
+        'redundantAttribute': 'expr74',
+        'selector': '[expr74]',
 
         'expressions': [{
           'type': expressionTypes.ATTRIBUTE,
@@ -1170,11 +1170,11 @@ __webpack_require__.r(__webpack_exports__);
           }
         }],
 
-        'redundantAttribute': 'expr84',
-        'selector': '[expr84]'
+        'redundantAttribute': 'expr75',
+        'selector': '[expr75]'
       }, {
-        'redundantAttribute': 'expr85',
-        'selector': '[expr85]',
+        'redundantAttribute': 'expr76',
+        'selector': '[expr76]',
 
         'expressions': [{
           'type': expressionTypes.ATTRIBUTE,
@@ -1185,8 +1185,8 @@ __webpack_require__.r(__webpack_exports__);
           }
         }]
       }, {
-        'redundantAttribute': 'expr86',
-        'selector': '[expr86]',
+        'redundantAttribute': 'expr77',
+        'selector': '[expr77]',
 
         'expressions': [{
           'type': expressionTypes.EVENT,
@@ -1197,8 +1197,8 @@ __webpack_require__.r(__webpack_exports__);
           }
         }]
       }, {
-        'redundantAttribute': 'expr87',
-        'selector': '[expr87]',
+        'redundantAttribute': 'expr78',
+        'selector': '[expr78]',
 
         'expressions': [{
           'type': expressionTypes.TEXT,
@@ -1209,8 +1209,8 @@ __webpack_require__.r(__webpack_exports__);
           }
         }]
       }, {
-        'redundantAttribute': 'expr88',
-        'selector': '[expr88]',
+        'redundantAttribute': 'expr79',
+        'selector': '[expr79]',
 
         'expressions': [{
           'type': expressionTypes.ATTRIBUTE,
@@ -1221,8 +1221,8 @@ __webpack_require__.r(__webpack_exports__);
           }
         }]
       }, {
-        'redundantAttribute': 'expr89',
-        'selector': '[expr89]',
+        'redundantAttribute': 'expr80',
+        'selector': '[expr80]',
 
         'expressions': [{
           'type': expressionTypes.EVENT,
@@ -1265,8 +1265,8 @@ __webpack_require__.r(__webpack_exports__);
           }
         }],
 
-        'redundantAttribute': 'expr90',
-        'selector': '[expr90]'
+        'redundantAttribute': 'expr81',
+        'selector': '[expr81]'
       }]
     );
   },
@@ -1331,10 +1331,10 @@ __webpack_require__.r(__webpack_exports__);
 
   'template': function(template, expressionTypes, bindingTypes, getComponent) {
     return template(
-      '<div expr95="expr95" style="top: unset; left: unset; margin-left: -74px;"><div class="arrow" style="left: 65px;"></div><h3 class="popover-header"></h3><div class="popover-body"><ul class="list-group" style="max-height: 200px;"><li class="list-group-item pd-0 bd-0"><ul class="list-group bd-0" style="max-height: 150px; overflow: auto;"><li expr96="expr96" class="list-group-item pd-5"></li></ul></li><li class="list-group-item pd-t-5 bd-0"><button expr99="expr99" class="btn btn-primary wd-50 float-left tx-10 pd-5">Filter</button><button expr100="expr100" class="btn btn-warning wd-50 float-left tx-10 pd-5 mg-l-3">Reset</button></li></ul></div></div>',
+      '<div expr93="expr93" style="top: unset; left: unset; margin-left: -74px;"><div class="arrow" style="left: 65px;"></div><h3 class="popover-header"></h3><div class="popover-body"><ul class="list-group" style="max-height: 200px;"><li class="list-group-item pd-0 bd-0"><ul class="list-group bd-0" style="max-height: 150px; overflow: auto;"><li expr94="expr94" class="list-group-item pd-5"></li></ul></li><li class="list-group-item pd-t-5 bd-0"><button expr97="expr97" class="btn btn-primary wd-50 float-left tx-10 pd-5">Filter</button><button expr98="expr98" class="btn btn-warning wd-50 float-left tx-10 pd-5 mg-l-3">Reset</button></li></ul></div></div>',
       [{
-        'redundantAttribute': 'expr95',
-        'selector': '[expr95]',
+        'redundantAttribute': 'expr93',
+        'selector': '[expr93]',
 
         'expressions': [{
           'type': expressionTypes.ATTRIBUTE,
@@ -1353,10 +1353,10 @@ __webpack_require__.r(__webpack_exports__);
         'condition': null,
 
         'template': template(
-          '<input expr97="expr97" style="padding: 10px;" type="checkbox"/><span expr98="expr98" class="float-left pd-t-0 pd-l-10 tx-10"> </span>',
+          '<input expr95="expr95" style="padding: 10px;" type="checkbox"/><span expr96="expr96" class="float-left pd-t-0 pd-l-10 tx-10"> </span>',
           [{
-            'redundantAttribute': 'expr97',
-            'selector': '[expr97]',
+            'redundantAttribute': 'expr95',
+            'selector': '[expr95]',
 
             'expressions': [{
               'type': expressionTypes.ATTRIBUTE,
@@ -1380,8 +1380,8 @@ __webpack_require__.r(__webpack_exports__);
               }
             }]
           }, {
-            'redundantAttribute': 'expr98',
-            'selector': '[expr98]',
+            'redundantAttribute': 'expr96',
+            'selector': '[expr96]',
 
             'expressions': [{
               'type': expressionTypes.TEXT,
@@ -1394,8 +1394,8 @@ __webpack_require__.r(__webpack_exports__);
           }]
         ),
 
-        'redundantAttribute': 'expr96',
-        'selector': '[expr96]',
+        'redundantAttribute': 'expr94',
+        'selector': '[expr94]',
         'itemName': 'item',
         'indexName': null,
 
@@ -1403,8 +1403,8 @@ __webpack_require__.r(__webpack_exports__);
           return scope.props.dataItems || [];
         }
       }, {
-        'redundantAttribute': 'expr99',
-        'selector': '[expr99]',
+        'redundantAttribute': 'expr97',
+        'selector': '[expr97]',
 
         'expressions': [{
           'type': expressionTypes.EVENT,
@@ -1415,8 +1415,8 @@ __webpack_require__.r(__webpack_exports__);
           }
         }]
       }, {
-        'redundantAttribute': 'expr100',
-        'selector': '[expr100]',
+        'redundantAttribute': 'expr98',
+        'selector': '[expr98]',
 
         'expressions': [{
           'type': expressionTypes.EVENT,
@@ -1500,10 +1500,10 @@ __webpack_require__.r(__webpack_exports__);
 
   'template': function(template, expressionTypes, bindingTypes, getComponent) {
     return template(
-      '<div expr101="expr101" style="top: unset; left: unset; margin-left: -74px;"><div class="arrow" style="left: 65px;"></div><h3 class="popover-header"></h3><div class="popover-body"><ul class="list-group" style="max-height: 200px;"><li class="list-group-item pd-0 bd-0"><input expr102="expr102" type="text" class="form-control pd-5 tx-10 float-left h-auto" placeholder="search"/></li><li class="list-group-item pd-t-5 bd-0"><button expr103="expr103" class="btn btn-primary wd-50 float-left tx-10 pd-5">Filter</button><button expr104="expr104" class="btn btn-warning wd-50 float-left tx-10 pd-5 mg-l-3">Reset</button></li></ul></div></div>',
+      '<div expr99="expr99" style="top: unset; left: unset; margin-left: -74px;"><div class="arrow" style="left: 65px;"></div><h3 class="popover-header"></h3><div class="popover-body"><ul class="list-group" style="max-height: 200px;"><li class="list-group-item pd-0 bd-0"><input expr100="expr100" type="text" class="form-control pd-5 tx-10 float-left h-auto" placeholder="search"/></li><li class="list-group-item pd-t-5 bd-0"><button expr101="expr101" class="btn btn-primary wd-50 float-left tx-10 pd-5">Filter</button><button expr102="expr102" class="btn btn-warning wd-50 float-left tx-10 pd-5 mg-l-3">Reset</button></li></ul></div></div>',
       [{
-        'redundantAttribute': 'expr101',
-        'selector': '[expr101]',
+        'redundantAttribute': 'expr99',
+        'selector': '[expr99]',
 
         'expressions': [{
           'type': expressionTypes.ATTRIBUTE,
@@ -1517,8 +1517,8 @@ __webpack_require__.r(__webpack_exports__);
           }
         }]
       }, {
-        'redundantAttribute': 'expr102',
-        'selector': '[expr102]',
+        'redundantAttribute': 'expr100',
+        'selector': '[expr100]',
 
         'expressions': [{
           'type': expressionTypes.ATTRIBUTE,
@@ -1535,8 +1535,8 @@ __webpack_require__.r(__webpack_exports__);
           }
         }]
       }, {
-        'redundantAttribute': 'expr103',
-        'selector': '[expr103]',
+        'redundantAttribute': 'expr101',
+        'selector': '[expr101]',
 
         'expressions': [{
           'type': expressionTypes.EVENT,
@@ -1547,8 +1547,8 @@ __webpack_require__.r(__webpack_exports__);
           }
         }]
       }, {
-        'redundantAttribute': 'expr104',
-        'selector': '[expr104]',
+        'redundantAttribute': 'expr102',
+        'selector': '[expr102]',
 
         'expressions': [{
           'type': expressionTypes.EVENT,
@@ -1647,10 +1647,10 @@ __webpack_require__.r(__webpack_exports__);
 
   'template': function(template, expressionTypes, bindingTypes, getComponent) {
     return template(
-      '<div expr68="expr68"><div expr69="expr69"></div><div expr71="expr71"> </div><div expr72="expr72"></div><div expr73="expr73"></div></div>',
+      '<div expr83="expr83"><div expr84="expr84"></div><div expr86="expr86"> </div><div expr87="expr87"></div><div expr88="expr88"></div></div>',
       [{
-        'redundantAttribute': 'expr68',
-        'selector': '[expr68]',
+        'redundantAttribute': 'expr83',
+        'selector': '[expr83]',
 
         'expressions': [{
           'type': expressionTypes.ATTRIBUTE,
@@ -1667,10 +1667,10 @@ __webpack_require__.r(__webpack_exports__);
           return scope.props.useSort;
         },
 
-        'redundantAttribute': 'expr69',
-        'selector': '[expr69]',
+        'redundantAttribute': 'expr84',
+        'selector': '[expr84]',
 
-        'template': template('<form-button-sort expr70="expr70"></form-button-sort>', [{
+        'template': template('<form-button-sort expr85="expr85"></form-button-sort>', [{
           'expressions': [{
             'type': expressionTypes.ATTRIBUTE,
             'name': 'class',
@@ -1719,12 +1719,12 @@ __webpack_require__.r(__webpack_exports__);
             }
           }],
 
-          'redundantAttribute': 'expr70',
-          'selector': '[expr70]'
+          'redundantAttribute': 'expr85',
+          'selector': '[expr85]'
         }])
       }, {
-        'redundantAttribute': 'expr71',
-        'selector': '[expr71]',
+        'redundantAttribute': 'expr86',
+        'selector': '[expr86]',
 
         'expressions': [{
           'type': expressionTypes.TEXT,
@@ -1748,8 +1748,8 @@ __webpack_require__.r(__webpack_exports__);
           return scope.props.useSearch;
         },
 
-        'redundantAttribute': 'expr72',
-        'selector': '[expr72]',
+        'redundantAttribute': 'expr87',
+        'selector': '[expr87]',
 
         'template': template('<i class="fa fa-search"></i>', [{
           'expressions': [{
@@ -1780,8 +1780,8 @@ __webpack_require__.r(__webpack_exports__);
           return scope.props.useFilter;
         },
 
-        'redundantAttribute': 'expr73',
-        'selector': '[expr73]',
+        'redundantAttribute': 'expr88',
+        'selector': '[expr88]',
 
         'template': template('<i class="fa fa-filter"></i>', [{
           'expressions': [{
@@ -2094,10 +2094,10 @@ const defaultFormat = 'YYYY/MM/DD'
 
   'template': function(template, expressionTypes, bindingTypes, getComponent) {
     return template(
-      '<div expr74="expr74"><div expr75="expr75" class="input-group-prepend"></div><input expr76="expr76" type="text"/></div>',
+      '<div expr36="expr36"><div expr37="expr37" class="input-group-prepend"></div><input expr38="expr38" type="text"/></div>',
       [{
-        'redundantAttribute': 'expr74',
-        'selector': '[expr74]',
+        'redundantAttribute': 'expr36',
+        'selector': '[expr36]',
 
         'expressions': [{
           'type': expressionTypes.ATTRIBUTE,
@@ -2121,8 +2121,8 @@ const defaultFormat = 'YYYY/MM/DD'
           return scope.showIcon;
         },
 
-        'redundantAttribute': 'expr75',
-        'selector': '[expr75]',
+        'redundantAttribute': 'expr37',
+        'selector': '[expr37]',
         'template': template('<i class="input-group-text ion-calendar"></i>', [])
       }, {
         'type': bindingTypes.IF,
@@ -2131,8 +2131,8 @@ const defaultFormat = 'YYYY/MM/DD'
           return scope.dateType === 'range';
         },
 
-        'redundantAttribute': 'expr76',
-        'selector': '[expr76]',
+        'redundantAttribute': 'expr38',
+        'selector': '[expr38]',
 
         'template': template(null, [{
           'expressions': [{
@@ -2296,10 +2296,10 @@ const defaultFormat = 'YYYY-MM-DD'
 
   'template': function(template, expressionTypes, bindingTypes, getComponent) {
     return template(
-      '<div expr77="expr77"><div expr78="expr78" class="input-group-prepend"></div><input expr79="expr79" type="text"/><div expr80="expr80" class="input-group-append"></div></div>',
+      '<div expr57="expr57"><div expr58="expr58" class="input-group-prepend"></div><input expr59="expr59" type="text"/><div expr60="expr60" class="input-group-append"></div></div>',
       [{
-        'redundantAttribute': 'expr77',
-        'selector': '[expr77]',
+        'redundantAttribute': 'expr57',
+        'selector': '[expr57]',
 
         'expressions': [{
           'type': expressionTypes.ATTRIBUTE,
@@ -2323,12 +2323,12 @@ const defaultFormat = 'YYYY-MM-DD'
           return scope.showIcon;
         },
 
-        'redundantAttribute': 'expr78',
-        'selector': '[expr78]',
+        'redundantAttribute': 'expr58',
+        'selector': '[expr58]',
         'template': template('<i class="input-group-text ion-calendar"></i>', [])
       }, {
-        'redundantAttribute': 'expr79',
-        'selector': '[expr79]',
+        'redundantAttribute': 'expr59',
+        'selector': '[expr59]',
 
         'expressions': [{
           'type': expressionTypes.ATTRIBUTE,
@@ -2358,14 +2358,14 @@ const defaultFormat = 'YYYY-MM-DD'
           return scope.props.suffixText;
         },
 
-        'redundantAttribute': 'expr80',
-        'selector': '[expr80]',
+        'redundantAttribute': 'expr60',
+        'selector': '[expr60]',
 
         'template': template(
-          '<span expr81="expr81" class="input-group-text tx-10" id="basic-addon2"> </span>',
+          '<span expr61="expr61" class="input-group-text tx-10" id="basic-addon2"> </span>',
           [{
-            'redundantAttribute': 'expr81',
-            'selector': '[expr81]',
+            'redundantAttribute': 'expr61',
+            'selector': '[expr61]',
 
             'expressions': [{
               'type': expressionTypes.TEXT,
@@ -2439,10 +2439,10 @@ __webpack_require__.r(__webpack_exports__);
 
   'template': function(template, expressionTypes, bindingTypes, getComponent) {
     return template(
-      '<select expr39="expr39"><option expr40="expr40" value> </option><option expr41="expr41"></option></select>',
+      '<select expr48="expr48"><option expr49="expr49" value> </option><option expr50="expr50"></option></select>',
       [{
-        'redundantAttribute': 'expr39',
-        'selector': '[expr39]',
+        'redundantAttribute': 'expr48',
+        'selector': '[expr48]',
 
         'expressions': [{
           'type': expressionTypes.ATTRIBUTE,
@@ -2481,8 +2481,8 @@ __webpack_require__.r(__webpack_exports__);
           }
         }]
       }, {
-        'redundantAttribute': 'expr40',
-        'selector': '[expr40]',
+        'redundantAttribute': 'expr49',
+        'selector': '[expr49]',
 
         'expressions': [{
           'type': expressionTypes.TEXT,
@@ -2522,8 +2522,8 @@ __webpack_require__.r(__webpack_exports__);
           }]
         }]),
 
-        'redundantAttribute': 'expr41',
-        'selector': '[expr41]',
+        'redundantAttribute': 'expr50',
+        'selector': '[expr50]',
         'itemName': 'item',
         'indexName': null,
 
@@ -2592,9 +2592,9 @@ __webpack_require__.r(__webpack_exports__);
   },
 
   'template': function(template, expressionTypes, bindingTypes, getComponent) {
-    return template('<select expr47="expr47"><option expr48="expr48"></option></select>', [{
-      'redundantAttribute': 'expr47',
-      'selector': '[expr47]',
+    return template('<select expr67="expr67"><option expr68="expr68"></option></select>', [{
+      'redundantAttribute': 'expr67',
+      'selector': '[expr67]',
 
       'expressions': [{
         'type': expressionTypes.ATTRIBUTE,
@@ -2648,8 +2648,8 @@ __webpack_require__.r(__webpack_exports__);
         }]
       }]),
 
-      'redundantAttribute': 'expr48',
-      'selector': '[expr48]',
+      'redundantAttribute': 'expr68',
+      'selector': '[expr68]',
       'itemName': 'val',
       'indexName': null,
 
@@ -2732,9 +2732,9 @@ __webpack_require__.r(__webpack_exports__);
   },
 
   'template': function(template, expressionTypes, bindingTypes, getComponent) {
-    return template('<select expr45="expr45"><option expr46="expr46"></option></select>', [{
-      'redundantAttribute': 'expr45',
-      'selector': '[expr45]',
+    return template('<select expr63="expr63"><option expr64="expr64"></option></select>', [{
+      'redundantAttribute': 'expr63',
+      'selector': '[expr63]',
 
       'expressions': [{
         'type': expressionTypes.ATTRIBUTE,
@@ -2781,8 +2781,8 @@ __webpack_require__.r(__webpack_exports__);
         }]
       }]),
 
-      'redundantAttribute': 'expr46',
-      'selector': '[expr46]',
+      'redundantAttribute': 'expr64',
+      'selector': '[expr64]',
       'itemName': 'val',
       'indexName': null,
 
@@ -2864,9 +2864,9 @@ __webpack_require__.r(__webpack_exports__);
   'exports': _select2__WEBPACK_IMPORTED_MODULE_0__["default"],
 
   'template': function(template, expressionTypes, bindingTypes, getComponent) {
-    return template('<select expr42="expr42"><option expr43="expr43"></option></select>', [{
-      'redundantAttribute': 'expr42',
-      'selector': '[expr42]',
+    return template('<select expr65="expr65"><option expr66="expr66"></option></select>', [{
+      'redundantAttribute': 'expr65',
+      'selector': '[expr65]',
 
       'expressions': [{
         'type': expressionTypes.ATTRIBUTE,
@@ -2934,8 +2934,8 @@ __webpack_require__.r(__webpack_exports__);
         }]
       }]),
 
-      'redundantAttribute': 'expr43',
-      'selector': '[expr43]',
+      'redundantAttribute': 'expr66',
+      'selector': '[expr66]',
       'itemName': 'list',
       'indexName': null,
 
@@ -3056,10 +3056,10 @@ __webpack_require__.r(__webpack_exports__);
 
   'template': function(template, expressionTypes, bindingTypes, getComponent) {
     return template(
-      '<div class="form-inline"><select expr92="expr92"><option expr93="expr93"></option></select><input expr94="expr94" type="text"/></div>',
+      '<div class="form-inline"><select expr90="expr90"><option expr91="expr91"></option></select><input expr92="expr92" type="text"/></div>',
       [{
-        'redundantAttribute': 'expr92',
-        'selector': '[expr92]',
+        'redundantAttribute': 'expr90',
+        'selector': '[expr90]',
 
         'expressions': [{
           'type': expressionTypes.ATTRIBUTE,
@@ -3106,8 +3106,8 @@ __webpack_require__.r(__webpack_exports__);
           }]
         }]),
 
-        'redundantAttribute': 'expr93',
-        'selector': '[expr93]',
+        'redundantAttribute': 'expr91',
+        'selector': '[expr91]',
         'itemName': 'val',
         'indexName': null,
 
@@ -3115,8 +3115,8 @@ __webpack_require__.r(__webpack_exports__);
           return scope.fields;
         }
       }, {
-        'redundantAttribute': 'expr94',
-        'selector': '[expr94]',
+        'redundantAttribute': 'expr92',
+        'selector': '[expr92]',
 
         'expressions': [{
           'type': expressionTypes.ATTRIBUTE,
@@ -3241,9 +3241,9 @@ __webpack_require__.r(__webpack_exports__);
   },
 
   'template': function(template, expressionTypes, bindingTypes, getComponent) {
-    return template('<input expr38="expr38" type="file"/>', [{
-      'redundantAttribute': 'expr38',
-      'selector': '[expr38]',
+    return template('<input expr39="expr39" type="file"/>', [{
+      'redundantAttribute': 'expr39',
+      'selector': '[expr39]',
 
       'expressions': [{
         'type': expressionTypes.ATTRIBUTE,
@@ -3365,9 +3365,9 @@ __webpack_require__.r(__webpack_exports__);
   'exports': _my_pending_count__WEBPACK_IMPORTED_MODULE_0__["default"],
 
   'template': function(template, expressionTypes, bindingTypes, getComponent) {
-    return template('<span expr91="expr91" class="badge badge-light"> </span>', [{
-      'redundantAttribute': 'expr91',
-      'selector': '[expr91]',
+    return template('<span expr89="expr89" class="badge badge-light"> </span>', [{
+      'redundantAttribute': 'expr89',
+      'selector': '[expr89]',
 
       'expressions': [{
         'type': expressionTypes.TEXT,
@@ -3409,10 +3409,10 @@ var package__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_requ
 
   'template': function(template, expressionTypes, bindingTypes, getComponent) {
     return template(
-      '<div expr18="expr18" class="br-mainpanel pd-0 pd-t-10 pd-b-10 pd-r-10 tx-9 mg-t-0 text-center"> </div>',
+      '<div expr27="expr27" class="br-mainpanel pd-0 pd-t-10 pd-b-10 pd-r-10 tx-9 mg-t-0 text-center"> </div>',
       [{
-        'redundantAttribute': 'expr18',
-        'selector': '[expr18]',
+        'redundantAttribute': 'expr27',
+        'selector': '[expr27]',
 
         'expressions': [{
           'type': expressionTypes.TEXT,
@@ -3446,10 +3446,10 @@ __webpack_require__.r(__webpack_exports__);
 
   'template': function(template, expressionTypes, bindingTypes, getComponent) {
     return template(
-      '<div class="page-content"><div data-height="cover" class="caption bottom-0"><div class="caption-center"><div class="content center-text"><i class="fa fa-exclamation-triangle color-red2-dark fa-7x bottom-20"></i><h2 class="uppercase bolder bottom-30 font-16">404 - Page Not Found</h2><p>\n                        The page you\'re looking for cannot be found. <br/>How about trying the homepage?\n                    </p><div class="left-30 right-30"><div class="one-half"><a expr19="expr19" class="back-button left-10 right-10 button button-s bg-highlight button-round-medium button-full shadow-large">BACK HOME</a></div><div class="one-half last-column"><a expr20="expr20" class="back-button left-10 right-10 button button-s bg-highlight button-round-medium button-full shadow-large">CONTACT</a></div><div class="clear"></div></div></div></div></div></div>',
+      '<div class="page-content"><div data-height="cover" class="caption bottom-0"><div class="caption-center"><div class="content center-text"><i class="fa fa-exclamation-triangle color-red2-dark fa-7x bottom-20"></i><h2 class="uppercase bolder bottom-30 font-16">404 - Page Not Found</h2><p>\n                        The page you\'re looking for cannot be found. <br/>How about trying the homepage?\n                    </p><div class="left-30 right-30"><div class="one-half"><a expr28="expr28" class="back-button left-10 right-10 button button-s bg-highlight button-round-medium button-full shadow-large">BACK HOME</a></div><div class="one-half last-column"><a expr29="expr29" class="back-button left-10 right-10 button button-s bg-highlight button-round-medium button-full shadow-large">CONTACT</a></div><div class="clear"></div></div></div></div></div></div>',
       [{
-        'redundantAttribute': 'expr19',
-        'selector': '[expr19]',
+        'redundantAttribute': 'expr28',
+        'selector': '[expr28]',
 
         'expressions': [{
           'type': expressionTypes.ATTRIBUTE,
@@ -3460,8 +3460,8 @@ __webpack_require__.r(__webpack_exports__);
           }
         }]
       }, {
-        'redundantAttribute': 'expr20',
-        'selector': '[expr20]',
+        'redundantAttribute': 'expr29',
+        'selector': '[expr29]',
 
         'expressions': [{
           'type': expressionTypes.ATTRIBUTE,
@@ -3582,10 +3582,10 @@ __webpack_require__.r(__webpack_exports__);
 
   'template': function(template, expressionTypes, bindingTypes, getComponent) {
     return template(
-      '<div class="br-logo shadow-base"><img src="./images/app-logo.png" width="200"/></div><div class="br-header"><div class="br-header-left"></div><div class="br-header-right"><nav class="nav"><div class="dropdown"><a class="nav-link nav-link-profile pd-r-0 mg-t-6"><span expr143="expr143" class="logged-name hidden-md-down c_pointer tx-10" data-toggle="tooltip" data-placement="top" title="Last Login"> </span></a></div><div class="dropdown"><a expr144="expr144"><span expr145="expr145" class="logged-name hidden-md-down tx-10"> </span><img src="./images/profile.png" class="wd-32 rounded-circle" alt/><span class="square-10 bg-success"></span></a><div expr146="expr146"><div class="tx-center"><a href><img src="./images/profile.png" class="wd-80 rounded-circle" alt/></a><h6 expr147="expr147" class="logged-fullname"> </h6><p expr148="expr148"> </p></div><hr/><ul class="list-unstyled user-profile-nav tx-10"><li expr149="expr149"></li><li expr151="expr151"></li><li><a expr153="expr153"><i class="icon ion-power"></i> Sign Out</a></li></ul></div></div></nav></div></div>',
+      '<div class="br-logo shadow-base"><img src="./images/app-logo.png" width="200"/></div><div class="br-header"><div class="br-header-left"></div><div class="br-header-right"><nav class="nav"><div class="dropdown"><a class="nav-link nav-link-profile pd-r-0 mg-t-6"><span expr6="expr6" class="logged-name hidden-md-down c_pointer tx-10" data-toggle="tooltip" data-placement="top" title="Last Login"> </span></a></div><div class="dropdown"><a expr7="expr7"><span expr8="expr8" class="logged-name hidden-md-down tx-10"> </span><img src="./images/profile.png" class="wd-32 rounded-circle" alt/><span class="square-10 bg-success"></span></a><div expr9="expr9"><div class="tx-center"><a href><img src="./images/profile.png" class="wd-80 rounded-circle" alt/></a><h6 expr10="expr10" class="logged-fullname"> </h6><p expr11="expr11"> </p></div><hr/><ul class="list-unstyled user-profile-nav tx-10"><li expr12="expr12"></li><li expr14="expr14"></li><li><a expr16="expr16"><i class="icon ion-power"></i> Sign Out</a></li></ul></div></div></nav></div></div>',
       [{
-        'redundantAttribute': 'expr143',
-        'selector': '[expr143]',
+        'redundantAttribute': 'expr6',
+        'selector': '[expr6]',
 
         'expressions': [{
           'type': expressionTypes.TEXT,
@@ -3596,8 +3596,8 @@ __webpack_require__.r(__webpack_exports__);
           }
         }]
       }, {
-        'redundantAttribute': 'expr144',
-        'selector': '[expr144]',
+        'redundantAttribute': 'expr7',
+        'selector': '[expr7]',
 
         'expressions': [{
           'type': expressionTypes.ATTRIBUTE,
@@ -3615,8 +3615,8 @@ __webpack_require__.r(__webpack_exports__);
           }
         }]
       }, {
-        'redundantAttribute': 'expr145',
-        'selector': '[expr145]',
+        'redundantAttribute': 'expr8',
+        'selector': '[expr8]',
 
         'expressions': [{
           'type': expressionTypes.TEXT,
@@ -3627,8 +3627,8 @@ __webpack_require__.r(__webpack_exports__);
           }
         }]
       }, {
-        'redundantAttribute': 'expr146',
-        'selector': '[expr146]',
+        'redundantAttribute': 'expr9',
+        'selector': '[expr9]',
 
         'expressions': [{
           'type': expressionTypes.ATTRIBUTE,
@@ -3642,8 +3642,8 @@ __webpack_require__.r(__webpack_exports__);
           }
         }]
       }, {
-        'redundantAttribute': 'expr147',
-        'selector': '[expr147]',
+        'redundantAttribute': 'expr10',
+        'selector': '[expr10]',
 
         'expressions': [{
           'type': expressionTypes.TEXT,
@@ -3654,8 +3654,8 @@ __webpack_require__.r(__webpack_exports__);
           }
         }]
       }, {
-        'redundantAttribute': 'expr148',
-        'selector': '[expr148]',
+        'redundantAttribute': 'expr11',
+        'selector': '[expr11]',
 
         'expressions': [{
           'type': expressionTypes.TEXT,
@@ -3672,14 +3672,14 @@ __webpack_require__.r(__webpack_exports__);
           return scope.userid === '@superadmin';
         },
 
-        'redundantAttribute': 'expr149',
-        'selector': '[expr149]',
+        'redundantAttribute': 'expr12',
+        'selector': '[expr12]',
 
         'template': template(
-          '<a expr150="expr150" href="#"><i class="icon ion-android-sync"></i>Synchronize</a>',
+          '<a expr13="expr13" href="#"><i class="icon ion-android-sync"></i>Synchronize</a>',
           [{
-            'redundantAttribute': 'expr150',
-            'selector': '[expr150]',
+            'redundantAttribute': 'expr13',
+            'selector': '[expr13]',
 
             'expressions': [{
               'type': expressionTypes.EVENT,
@@ -3698,14 +3698,14 @@ __webpack_require__.r(__webpack_exports__);
           return scope.userid === '@superadmin';
         },
 
-        'redundantAttribute': 'expr151',
-        'selector': '[expr151]',
+        'redundantAttribute': 'expr14',
+        'selector': '[expr14]',
 
         'template': template(
-          '<a expr152="expr152" href="#"><i class="icon ion-shuffle"></i>Administration</a>',
+          '<a expr15="expr15" href="#"><i class="icon ion-shuffle"></i>Administration</a>',
           [{
-            'redundantAttribute': 'expr152',
-            'selector': '[expr152]',
+            'redundantAttribute': 'expr15',
+            'selector': '[expr15]',
 
             'expressions': [{
               'type': expressionTypes.EVENT,
@@ -3718,8 +3718,8 @@ __webpack_require__.r(__webpack_exports__);
           }]
         )
       }, {
-        'redundantAttribute': 'expr153',
-        'selector': '[expr153]',
+        'redundantAttribute': 'expr16',
+        'selector': '[expr16]',
 
         'expressions': [{
           'type': expressionTypes.ATTRIBUTE,
@@ -3817,14 +3817,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
   renderMenu: function renderMenu() {
     var _this = this;
     Object(appmodules_utilities_utilities_sdk__WEBPACK_IMPORTED_MODULE_1__["getListMenu"])().then(function (response) {
-      var section = ['task-pendings'];
-      _this.items = response.data.filter(function (x) {
-        return x.name !== 'settlement-tools';
-      });
-      // this.items = response.data // billpayment tolong aktifkan
-      var taskPendings = Object(lodash__WEBPACK_IMPORTED_MODULE_0__["find"])(_this.items, function (val, o) {
-        return section.indexOf(val.name) > -1;
-      });
+      _this.items = response.data; // billpayment tolong aktifkan
       _this.update();
     }).catch(function (err) {
       Object(apphelpers_utilities__WEBPACK_IMPORTED_MODULE_3__["showAlertError"])(err);
@@ -3893,14 +3886,14 @@ __webpack_require__.r(__webpack_exports__);
 
   'template': function(template, expressionTypes, bindingTypes, getComponent) {
     return template(
-      '<div class="br-sideleft sideleft-scrollbar ps ps--active-y"><ul class="br-sideleft-menu mg-t-30"><li expr8="expr8" class="br-menu-item"></li></ul></div>',
+      '<div class="br-sideleft sideleft-scrollbar ps ps--active-y"><ul class="br-sideleft-menu mg-t-30"><li expr17="expr17" class="br-menu-item"></li></ul></div>',
       [{
         'type': bindingTypes.EACH,
         'getKey': null,
         'condition': null,
 
         'template': template(
-          '<a expr9="expr9"></a><a expr13="expr13"></a><ul expr16="expr16" class="br-menu-sub"></ul>',
+          '<a expr18="expr18"></a><a expr22="expr22"></a><ul expr25="expr25" class="br-menu-sub"></ul>',
           [{
             'type': bindingTypes.IF,
 
@@ -3908,11 +3901,11 @@ __webpack_require__.r(__webpack_exports__);
               return !scope.o.childs;
             },
 
-            'redundantAttribute': 'expr9',
-            'selector': '[expr9]',
+            'redundantAttribute': 'expr18',
+            'selector': '[expr18]',
 
             'template': template(
-              '<i expr10="expr10"></i><span expr11="expr11" class="menu-item-label tx-10"> </span><my-pending-count expr12="expr12"></my-pending-count>',
+              '<i expr19="expr19"></i><span expr20="expr20" class="menu-item-label tx-10"> </span><my-pending-count expr21="expr21"></my-pending-count>',
               [{
                 'expressions': [{
                   'type': expressionTypes.ATTRIBUTE,
@@ -3941,8 +3934,8 @@ __webpack_require__.r(__webpack_exports__);
                   }
                 }]
               }, {
-                'redundantAttribute': 'expr10',
-                'selector': '[expr10]',
+                'redundantAttribute': 'expr19',
+                'selector': '[expr19]',
 
                 'expressions': [{
                   'type': expressionTypes.ATTRIBUTE,
@@ -3953,8 +3946,8 @@ __webpack_require__.r(__webpack_exports__);
                   }
                 }]
               }, {
-                'redundantAttribute': 'expr11',
-                'selector': '[expr11]',
+                'redundantAttribute': 'expr20',
+                'selector': '[expr20]',
 
                 'expressions': [{
                   'type': expressionTypes.TEXT,
@@ -3971,8 +3964,8 @@ __webpack_require__.r(__webpack_exports__);
                   return scope.o.title == 'My Pending Tasks';
                 },
 
-                'redundantAttribute': 'expr12',
-                'selector': '[expr12]',
+                'redundantAttribute': 'expr21',
+                'selector': '[expr21]',
 
                 'template': template(null, [{
                   'type': bindingTypes.TAG,
@@ -3994,11 +3987,11 @@ __webpack_require__.r(__webpack_exports__);
               return scope.o.childs;
             },
 
-            'redundantAttribute': 'expr13',
-            'selector': '[expr13]',
+            'redundantAttribute': 'expr22',
+            'selector': '[expr22]',
 
             'template': template(
-              '<i expr14="expr14"></i><span expr15="expr15" class="menu-item-label tx-10"> </span>',
+              '<i expr23="expr23"></i><span expr24="expr24" class="menu-item-label tx-10"> </span>',
               [{
                 'expressions': [{
                   'type': expressionTypes.EVENT,
@@ -4027,8 +4020,8 @@ __webpack_require__.r(__webpack_exports__);
                   }
                 }]
               }, {
-                'redundantAttribute': 'expr14',
-                'selector': '[expr14]',
+                'redundantAttribute': 'expr23',
+                'selector': '[expr23]',
 
                 'expressions': [{
                   'type': expressionTypes.ATTRIBUTE,
@@ -4039,8 +4032,8 @@ __webpack_require__.r(__webpack_exports__);
                   }
                 }]
               }, {
-                'redundantAttribute': 'expr15',
-                'selector': '[expr15]',
+                'redundantAttribute': 'expr24',
+                'selector': '[expr24]',
 
                 'expressions': [{
                   'type': expressionTypes.TEXT,
@@ -4059,11 +4052,11 @@ __webpack_require__.r(__webpack_exports__);
               return scope.o.childs;
             },
 
-            'redundantAttribute': 'expr16',
-            'selector': '[expr16]',
+            'redundantAttribute': 'expr25',
+            'selector': '[expr25]',
 
             'template': template(
-              '<li class="sub-item"><a expr17="expr17" class="sub-link" style="font-size: 9px !important;"></a></li>',
+              '<li class="sub-item"><a expr26="expr26" class="sub-link" style="font-size: 9px !important;"></a></li>',
               [{
                 'expressions': [{
                   'type': expressionTypes.ATTRIBUTE,
@@ -4096,8 +4089,8 @@ __webpack_require__.r(__webpack_exports__);
                   }]
                 }]),
 
-                'redundantAttribute': 'expr17',
-                'selector': '[expr17]',
+                'redundantAttribute': 'expr26',
+                'selector': '[expr26]',
                 'itemName': 'val',
                 'indexName': null,
 
@@ -4109,8 +4102,8 @@ __webpack_require__.r(__webpack_exports__);
           }]
         ),
 
-        'redundantAttribute': 'expr8',
-        'selector': '[expr8]',
+        'redundantAttribute': 'expr17',
+        'selector': '[expr17]',
         'itemName': 'o',
         'indexName': null,
 
@@ -5023,10 +5016,10 @@ __webpack_require__.r(__webpack_exports__);
 
   'template': function(template, expressionTypes, bindingTypes, getComponent) {
     return template(
-      '<div class="d-flex align-items-center justify-content-center bg-br-primary ht-100v"><div class="login-wrapper wd-300 wd-xs-350 pd-r-40 pd-l-40 bg-white rounded shadow-base"><div class="signin-logo tx-center tx-28 tx-bold tx-inverse mg-b-20 pd-t-40"><img src="./images/app-logo.png" width="50" class="img-responsive"/></div><form expr141="expr141" name="login-form" id="login-form"><div class="form-group"><input type="text" name="username" class="form-control tx-12" placeholder="Enter your username" data-rule="required"/></div><div class="form-group"><input type="password" name="password" class="form-control tx-12" placeholder="Enter your password" data-rule="required"/></div><button type="submit" class="btn btn-primary tx-12 float-right">Sign In</button><br/><span expr142="expr142" class="pd-t-40 tx-center d-block tx-8 pd-b-10"> </span></form></div></div>',
+      '<div class="d-flex align-items-center justify-content-center bg-br-primary ht-100v"><div class="login-wrapper wd-300 wd-xs-350 pd-r-40 pd-l-40 bg-white rounded shadow-base"><div class="signin-logo tx-center tx-28 tx-bold tx-inverse mg-b-20 pd-t-40"><img src="./images/app-logo.png" width="50" class="img-responsive"/></div><form expr4="expr4" name="login-form" id="login-form"><div class="form-group"><input type="text" name="username" class="form-control tx-12" placeholder="Enter your username" data-rule="required"/></div><div class="form-group"><input type="password" name="password" class="form-control tx-12" placeholder="Enter your password" data-rule="required"/></div><button type="submit" class="btn btn-primary tx-12 float-right">Sign In</button><br/><span expr5="expr5" class="pd-t-40 tx-center d-block tx-8 pd-b-10"> </span></form></div></div>',
       [{
-        'redundantAttribute': 'expr141',
-        'selector': '[expr141]',
+        'redundantAttribute': 'expr4',
+        'selector': '[expr4]',
 
         'expressions': [{
           'type': expressionTypes.EVENT,
@@ -5037,8 +5030,8 @@ __webpack_require__.r(__webpack_exports__);
           }
         }]
       }, {
-        'redundantAttribute': 'expr142',
-        'selector': '[expr142]',
+        'redundantAttribute': 'expr5',
+        'selector': '[expr5]',
 
         'expressions': [{
           'type': expressionTypes.TEXT,
@@ -5466,10 +5459,10 @@ __webpack_require__.r(__webpack_exports__);
 
   'template': function(template, expressionTypes, bindingTypes, getComponent) {
     return template(
-      '<div class="row pd-t-20"><div class="col-6"><table class="table table-borderless"><tr class="tx-12"><td width="100">Frontend</td><td width="10">:</td><td class="pd-l-0-force"><span expr105="expr105" class="badge badge-danger tx-11" style="letter-spacing: 0.5px;"> </span></td></tr><tr class="tx-12"><td>Backend</td><td>:</td><td class="pd-l-0-force"><span expr106="expr106" class="badge badge-success tx-11" style="letter-spacing: 0.5px;"> </span></td></tr></table></div></div>',
+      '<div class="row pd-t-20"><div class="col-6"><table class="table table-borderless"><tr class="tx-12"><td width="100">Frontend</td><td width="10">:</td><td class="pd-l-0-force"><span expr103="expr103" class="badge badge-danger tx-11" style="letter-spacing: 0.5px;"> </span></td></tr><tr class="tx-12"><td>Backend</td><td>:</td><td class="pd-l-0-force"><span expr104="expr104" class="badge badge-success tx-11" style="letter-spacing: 0.5px;"> </span></td></tr></table></div></div>',
       [{
-        'redundantAttribute': 'expr105',
-        'selector': '[expr105]',
+        'redundantAttribute': 'expr103',
+        'selector': '[expr103]',
 
         'expressions': [{
           'type': expressionTypes.TEXT,
@@ -5480,8 +5473,8 @@ __webpack_require__.r(__webpack_exports__);
           }
         }]
       }, {
-        'redundantAttribute': 'expr106',
-        'selector': '[expr106]',
+        'redundantAttribute': 'expr104',
+        'selector': '[expr104]',
 
         'expressions': [{
           'type': expressionTypes.TEXT,
@@ -5602,10 +5595,10 @@ __webpack_require__.r(__webpack_exports__);
 
   'template': function(template, expressionTypes, bindingTypes, getComponent) {
     return template(
-      '<div class="br-mainpanel"><div class="br-pageheader"><nav class="breadcrumb pd-0 mg-0 tx-12"><span class="breadcrumb-item">Super Admin</span><span class="breadcrumb-item">Administration</span><span class="breadcrumb-item active">Database Collections</span></nav></div><div class="br-pagebody pd-r-5 pd-l-5 mg-t-10"><div class="br-section-wrapper pd-x-20 pd-t-10"><div class="row"><div class="col-12"><a expr32="expr32" href="#" class="btn btn-primary">\n                            Back\n                        </a></div></div><div class="row pd-t-20 pd-b-40"><div class="col-sm-12"><ul class="nav nav-tabs tx-12" id="myTab" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="version-tab" data-toggle="tab" href="#version" role="tab">\n                                    App Version\n                                </a></li><li class="nav-item" role="presentation"><a class="nav-link" id="snapshot-tab" data-toggle="tab" href="#snapshot" role="tab">\n                                    Snapshot Log\n                                </a></li><li class="nav-item" role="presentation"><a class="nav-link" id="fc-tab" data-toggle="tab" href="#fc" role="tab">\n                                    Face Comparison\n                                </a></li><li class="nav-item" role="presentation"><a class="nav-link" id="onbo-tab" data-toggle="tab" href="#onbo" role="tab">\n                                    Customer Onboarding\n                                </a></li><li class="nav-item" role="presentation"><a class="nav-link" id="error-logs-tab" data-toggle="tab" href="#error-logs" role="tab">\n                                    Error Logs\n                                </a></li></ul><div class="tab-content" id="myTabContent"><div class="tab-pane fade show active" id="version" role="tabpanel" aria-labelledby="version-tab"><version-info expr33="expr33"></version-info></div><div class="tab-pane fade" id="snapshot" role="tabpanel" aria-labelledby="snapshot-tab"><snapshot-log expr34="expr34"></snapshot-log></div><div class="tab-pane fade" id="fc" role="tabpanel" aria-labelledby="fc-tab"><collection-face-comparison expr35="expr35"></collection-face-comparison></div><div class="tab-pane fade" id="onbo" role="tabpanel" aria-labelledby="onbo-tab"><collection-onboarding expr36="expr36"></collection-onboarding></div><div class="tab-pane fade" id="error-logs" role="tabpanel" aria-labelledby="error-logs-tab"><collection-error-logs expr37="expr37"></collection-error-logs></div></div></div></div></div></div></div>',
+      '<div class="br-mainpanel"><div class="br-pageheader"><nav class="breadcrumb pd-0 mg-0 tx-12"><span class="breadcrumb-item">Super Admin</span><span class="breadcrumb-item">Administration</span><span class="breadcrumb-item active">Database Collections</span></nav></div><div class="br-pagebody pd-r-5 pd-l-5 mg-t-10"><div class="br-section-wrapper pd-x-20 pd-t-10"><div class="row"><div class="col-12"><a expr30="expr30" href="#" class="btn btn-primary">\n                            Back\n                        </a></div></div><div class="row pd-t-20 pd-b-40"><div class="col-sm-12"><ul class="nav nav-tabs tx-12" id="myTab" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="version-tab" data-toggle="tab" href="#version" role="tab">\n                                    App Version\n                                </a></li><li class="nav-item" role="presentation"><a class="nav-link" id="snapshot-tab" data-toggle="tab" href="#snapshot" role="tab">\n                                    Snapshot Log\n                                </a></li><li class="nav-item" role="presentation"><a class="nav-link" id="fc-tab" data-toggle="tab" href="#fc" role="tab">\n                                    Face Comparison\n                                </a></li><li class="nav-item" role="presentation"><a class="nav-link" id="onbo-tab" data-toggle="tab" href="#onbo" role="tab">\n                                    Customer Onboarding\n                                </a></li><li class="nav-item" role="presentation"><a class="nav-link" id="error-logs-tab" data-toggle="tab" href="#error-logs" role="tab">\n                                    Error Logs\n                                </a></li></ul><div class="tab-content" id="myTabContent"><div class="tab-pane fade show active" id="version" role="tabpanel" aria-labelledby="version-tab"><version-info expr31="expr31"></version-info></div><div class="tab-pane fade" id="snapshot" role="tabpanel" aria-labelledby="snapshot-tab"><snapshot-log expr32="expr32"></snapshot-log></div><div class="tab-pane fade" id="fc" role="tabpanel" aria-labelledby="fc-tab"><collection-face-comparison expr33="expr33"></collection-face-comparison></div><div class="tab-pane fade" id="onbo" role="tabpanel" aria-labelledby="onbo-tab"><collection-onboarding expr34="expr34"></collection-onboarding></div><div class="tab-pane fade" id="error-logs" role="tabpanel" aria-labelledby="error-logs-tab"><collection-error-logs expr35="expr35"></collection-error-logs></div></div></div></div></div></div></div>',
       [{
-        'redundantAttribute': 'expr32',
-        'selector': '[expr32]',
+        'redundantAttribute': 'expr30',
+        'selector': '[expr30]',
 
         'expressions': [{
           'type': expressionTypes.EVENT,
@@ -5625,6 +5618,30 @@ __webpack_require__.r(__webpack_exports__);
 
         'slots': [],
         'attributes': [],
+        'redundantAttribute': 'expr31',
+        'selector': '[expr31]'
+      }, {
+        'type': bindingTypes.TAG,
+        'getComponent': getComponent,
+
+        'evaluate': function(scope) {
+          return 'snapshot-log';
+        },
+
+        'slots': [],
+        'attributes': [],
+        'redundantAttribute': 'expr32',
+        'selector': '[expr32]'
+      }, {
+        'type': bindingTypes.TAG,
+        'getComponent': getComponent,
+
+        'evaluate': function(scope) {
+          return 'collection-face-comparison';
+        },
+
+        'slots': [],
+        'attributes': [],
         'redundantAttribute': 'expr33',
         'selector': '[expr33]'
       }, {
@@ -5632,7 +5649,7 @@ __webpack_require__.r(__webpack_exports__);
         'getComponent': getComponent,
 
         'evaluate': function(scope) {
-          return 'snapshot-log';
+          return 'collection-onboarding';
         },
 
         'slots': [],
@@ -5644,37 +5661,13 @@ __webpack_require__.r(__webpack_exports__);
         'getComponent': getComponent,
 
         'evaluate': function(scope) {
-          return 'collection-face-comparison';
+          return 'collection-error-logs';
         },
 
         'slots': [],
         'attributes': [],
         'redundantAttribute': 'expr35',
         'selector': '[expr35]'
-      }, {
-        'type': bindingTypes.TAG,
-        'getComponent': getComponent,
-
-        'evaluate': function(scope) {
-          return 'collection-onboarding';
-        },
-
-        'slots': [],
-        'attributes': [],
-        'redundantAttribute': 'expr36',
-        'selector': '[expr36]'
-      }, {
-        'type': bindingTypes.TAG,
-        'getComponent': getComponent,
-
-        'evaluate': function(scope) {
-          return 'collection-error-logs';
-        },
-
-        'slots': [],
-        'attributes': [],
-        'redundantAttribute': 'expr37',
-        'selector': '[expr37]'
       }]
     );
   },
@@ -5754,7 +5747,28 @@ var checkup = function checkup() {
   return 'ok';
 };
 var getListMenu = function getListMenu() {
-  return 'ok';
+  return new Promise(function (resolve) {
+    resolve({
+      data: [{
+        link: '/dashboard',
+        icon: 'dashboard',
+        name: 'menu-dashboard',
+        title: 'Dashboard'
+      }, {
+        link: '/administration',
+        icon: 'administration',
+        name: 'menu-administration',
+        title: 'Administration',
+        childs: [{
+          title: 'Gateway',
+          link: '/administration/gateway'
+        }, {
+          title: 'Server As Service',
+          link: '/administration/server-as-service'
+        }]
+      }]
+    });
+  });
 };
 
 /***/ }),
@@ -51589,8 +51603,8 @@ module.exports = JSON.parse("{\"private\":true,\"name\":\"dashboard\",\"app_vers
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/ivo/Projects/pribadi/server-as-service/dashboard/app/main.js */"./app/main.js");
-module.exports = __webpack_require__(/*! /Users/ivo/Projects/pribadi/server-as-service/dashboard/app/themes/default/scss/bracket.scss */"./app/themes/default/scss/bracket.scss");
+__webpack_require__(/*! /Users/ivo/Projects/pribadi/dashboard/app/main.js */"./app/main.js");
+module.exports = __webpack_require__(/*! /Users/ivo/Projects/pribadi/dashboard/app/themes/default/scss/bracket.scss */"./app/themes/default/scss/bracket.scss");
 
 
 /***/ })

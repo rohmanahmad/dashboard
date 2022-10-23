@@ -34,12 +34,7 @@ export default {
     renderMenu() {
         getListMenu()
             .then((response) => {
-                let section = ['task-pendings']
-                this.items = response.data.filter(x => x.name !== 'settlement-tools')
-                // this.items = response.data // billpayment tolong aktifkan
-                let taskPendings = find(this.items, (val, o) => {
-                    return section.indexOf(val.name) > -1
-                })
+                this.items = response.data // billpayment tolong aktifkan
                 this.update()
             })
             .catch((err) => {
